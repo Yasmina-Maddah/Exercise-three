@@ -1,4 +1,5 @@
 const height = prompt("Enter the height of the christmas tree: ");
+const body = document.body;
 
 body.style.display = "flex";
 body.style.display = "center";
@@ -16,9 +17,10 @@ for (let i=1; i<= height; i++){
     const treeRow = document.createElement("div");
     treeRow.classList.add("tree-row");
 
-    for (var j=0; j< (2*i-1); k++ ){
+    for (var j=0; j< (2*i-1); j++ ){
         const star = document.createElement("span");
         star.classList.add("star");
+        star.textContent = '*';
         treeRow.appendChild(star);
     }
 
@@ -26,7 +28,7 @@ for (let i=1; i<= height; i++){
 }
 
 const trunk = document.createElement("div");
-trucnk.classList.add("trunk");
+trunk.classList.add("trunk");
 treeContainer.appendChild(trunk);
 
 body.appendChild(treeContainer);

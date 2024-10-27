@@ -4,20 +4,30 @@
     box-sizing: border-box;
   }
 
-.tree-container{
-    margin-top: 20px;
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
 }
 
-.tree-row{
+
+.tree-container{
+    margin-top: 20px;
+    background-color: green;
+}
+
+.tree-row {
+    font-size: 20px;
     display: flex;
     justify-content: center;
-    line-height: 1;
+    line-height: 1.2;
 }
 
 .star {
     color: rgb(223, 243, 120);
     display: inline-block;
-    width: 10px;
+    width: 20px; 
+    text-align: center; 
+    font-size: 24px; 
 }
 
 .trunk {
@@ -25,5 +35,7 @@
     height: 20px;
     background-color: brown;
     border-radius: 2px;
+    text-align: center;
+    margin: 0 auto;
 }
   
