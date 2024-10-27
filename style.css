@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+.tree-container{
+    margin-top: 20px;
+}
+
+.tree-row{
+    display: flex;
+    justify-content: center;
+    line-height: 1;
+}
+
+.star {
+    color: rgb(223, 243, 120);
+    display: inline-block;
+    width: 10px;
+}
+
+.trunk {
+    width: 10px;
+    height: 20px;
+    background-color: brown;
+    border-radius: 2px;
+}
+  
